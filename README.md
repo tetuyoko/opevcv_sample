@@ -1,11 +1,25 @@
 opevcv_sample
 =============
 
+
+
+
+
 opevcv_sample
 
-to start
-
-~~~ruby
- % foreman start
+##install
+~~~
+brew tap homebrew/science
+brew install opencv
+bundle
 ~~~
 
+## to start capture
+~~~ruby
+FaceDetect.run
+~~~
+
+## to start sinatra
+~~~
+foreman start
+~~~
