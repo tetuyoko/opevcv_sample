@@ -29,3 +29,5 @@ class FaceDetect
     end
   end
 end
+
+FaceDetect.run
