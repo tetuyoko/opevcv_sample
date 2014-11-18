@@ -7,6 +7,8 @@ require 'opencv'
 require 'benchmark'
 include OpenCV
 
+# オブジェクトを探す
+
 def compare_surf_descriptors(d1, d2, best, length)
   raise ArgumentError unless (length % 4) == 0
   total_cost = 0
@@ -19,7 +21,7 @@ def compare_surf_descriptors(d1, d2, best, length)
     break if total_cost > best
   }
   total_cost
-end
+und
 
 def naive_nearest_neighbor(vec, laplacian, model_keypoints, model_descriptors)
   length = model_descriptors[0].size

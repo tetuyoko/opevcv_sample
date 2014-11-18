@@ -5,6 +5,8 @@ require "opencv"
 
 include OpenCV
 
+# painter
+
 window = GUI::Window.new("free canvas")
 canvas = CvMat.new(500, 500, CV_8U, 3).fill!(CvColor::White) # create white canvas
 window.show canvas

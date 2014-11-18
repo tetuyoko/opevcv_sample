@@ -5,6 +5,7 @@ require "rubygems"
 require "opencv"
 include OpenCV
 
+# 輪郭点の抽出
 window = GUI::Window.new("convexhull")
 capture = CvCapture::open
 

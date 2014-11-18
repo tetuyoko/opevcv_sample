@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 # A demo of Ruby/OpenCV's match_template function
+#
+# テンプレートマッチング
 
 require 'opencv'
 include OpenCV

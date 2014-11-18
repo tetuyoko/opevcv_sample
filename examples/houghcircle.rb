@@ -4,6 +4,8 @@ require "rubygems"
 require "opencv"
 include OpenCV
 
+# ○を探す
+
 original_window = GUI::Window.new "original"
 hough_window = GUI::Window.new "hough circles"
 

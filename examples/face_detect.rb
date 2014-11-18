@@ -5,6 +5,8 @@ require "opencv"
 
 include OpenCV
 
+# 顔抽出
+
 window = GUI::Window.new("face detect")
 capture = CvCapture.open
 OPEN_CV_LIB = '/usr/local/share/OpenCV/haarcascades'

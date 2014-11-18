@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # -*- mode: ruby; coding: utf-8 -*-
-
+# ２つの画像を合成する
 # Alpha blending sample with GUI
 
 require 'opencv'
